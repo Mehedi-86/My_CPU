@@ -1,6 +1,7 @@
 # My_CPU
 
-📖 Introduction
+📖 Introduction:
+
 This project implements a Custom CPU Architecture using Logisim Evolution. The design includes an Arithmetic Logic Unit (ALU), Registers, Control Unit, and Memory components to execute fundamental operations.
 
 
