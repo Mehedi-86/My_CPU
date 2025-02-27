@@ -3,7 +3,9 @@
 📖 Introduction
 This project implements a Custom CPU Architecture using Logisim Evolution. The design includes an Arithmetic Logic Unit (ALU), Registers, Control Unit, and Memory components to execute fundamental operations.
 
+
 ✨ Features
+
 ✅ ALU Operations → Supports addition, subtraction, AND, OR, etc.
 ✅ Register File → Stores temporary values for processing.
 ✅ Control Unit → Decodes and manages instruction execution.
@@ -11,6 +13,7 @@ This project implements a Custom CPU Architecture using Logisim Evolution. The d
 ✅ RAM & ROM Integration → Supports instruction and data storage.
 
 📂 File Structure
+
 bash
 Copy
 Edit
@@ -19,7 +22,10 @@ Edit
 │── 2107086_cpu.circ          # CPU core logic
 │── 2107086_ALU.circ          # Arithmetic Logic Unit (ALU)
 │── README.md                 # Documentation file
-🚀 How to Run the Project
+
+
+🚀 How to Run the Project:
+
 🔹 Steps to Open in Logisim Evolution
 1️⃣ Download and Install Logisim Evolution → https://logisim-evolution.org
 2️⃣ Open Logisim Evolution.
@@ -28,6 +34,7 @@ Edit
 5️⃣ Observe the registers, ALU, and memory changes during execution.
 
 🔍 Debugging & Common Issues
+
 🔹 Red Wire Errors (Floating Inputs)
 Ensure all inputs have defined values (use constants if needed).
 Check the Control Unit signals for proper instruction execution.
@@ -43,7 +50,9 @@ Verify that input values match expected results.
 🚀 Improve instruction set support to handle more complex operations.
 
 📜 License
+
 This project is open-source. Feel free to use, modify, and contribute!
+
 
 💡 Conclusion
 This project demonstrates CPU architecture design in Logisim, focusing on the ALU, registers, memory, and control unit. It provides a foundation for learning computer organization and digital logic.
