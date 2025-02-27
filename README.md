@@ -33,7 +33,7 @@ Edit
 4️⃣ Use "Simulate → Tick Once" to execute step-by-step.
 5️⃣ Observe the registers, ALU, and memory changes during execution.
 
-🔍 Debugging & Common Issues
+🔍 Debugging & Common Issues:
 
 🔹 Red Wire Errors (Floating Inputs)
 Ensure all inputs have defined values (use constants if needed).
@@ -54,5 +54,6 @@ Verify that input values match expected results.
 This project is open-source. Feel free to use, modify, and contribute!
 
 
-💡 Conclusion
+💡 Conclusion:
+
 This project demonstrates CPU architecture design in Logisim, focusing on the ALU, registers, memory, and control unit. It provides a foundation for learning computer organization and digital logic.
