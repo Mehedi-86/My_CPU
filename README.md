@@ -1,60 +1,67 @@
-# My_CPU
+<h1>🚀 My_CPU</h1>
 
-📖 Introduction:
+<h2>📖 Introduction</h2>
+<p>This project implements a <strong>Custom CPU Architecture</strong> using Logisim Evolution. The design includes an <strong>Arithmetic Logic Unit (ALU), Registers, Control Unit,</strong> and <strong>Memory components</strong> to execute fundamental operations.</p>
 
-This project implements a Custom CPU Architecture using Logisim Evolution. The design includes an Arithmetic Logic Unit (ALU), Registers, Control Unit, and Memory components to execute fundamental operations.
+<h2>✨ Features</h2>
+<ul>
+  <li>✅ <strong>ALU Operations</strong> → Supports addition, subtraction, AND, OR, and other basic arithmetic and logical operations. The ALU performs these operations based on the input instructions.</li>
+  <li>✅ <strong>Register File</strong> → Stores temporary data values that the CPU needs for immediate operations, helping improve processing efficiency and speed.</li>
+  <li>✅ <strong>Control Unit</strong> → Decodes the instruction and controls the execution of the CPU, coordinating how data flows between components such as ALU, memory, and registers.</li>
+  <li>✅ <strong>Clock-Driven Execution</strong> → Uses clock pulses to execute operations step-by-step, allowing for synchronization and controlling the flow of instructions in a sequential manner.</li>
+  <li>✅ <strong>RAM & ROM Integration</strong> → Integrates memory for data storage (RAM) and instruction storage (ROM), enabling the CPU to access data and execute instructions effectively.</li>
+</ul>
 
+<h2>📂 File Structure</h2>
 
-✨ Features
-
-✅ ALU Operations → Supports addition, subtraction, AND, OR, etc.
-✅ Register File → Stores temporary values for processing.
-✅ Control Unit → Decodes and manages instruction execution.
-✅ Clock-Driven Execution → Step-by-step operation via clock pulses.
-✅ RAM & ROM Integration → Supports instruction and data storage.
-
-📂 File Structure
-
-bash
-Copy
-Edit
+<pre>
 /CPU_Design
 │── 2107086_Updated_CPU.circ  # Main CPU circuit
 │── 2107086_cpu.circ          # CPU core logic
 │── 2107086_ALU.circ          # Arithmetic Logic Unit (ALU)
 │── README.md                 # Documentation file
+</pre>
 
+<h2>🚀 How to Run the Project</h2>
 
-🚀 How to Run the Project:
+<h3>🔹 Steps to Open in Logisim Evolution</h3>
+<ol>
+  <li>Download and Install Logisim Evolution → <a href="https://logisim-evolution.org" target="_blank">Logisim Evolution</a></li>
+  <li>Open Logisim Evolution.</li>
+  <li>Click <strong>"File → Open"</strong> and select <code>2107086_Updated_CPU.circ</code>.</li>
+  <li>Use <strong>"Simulate → Tick Once"</strong> to execute step-by-step.</li>
+  <li>Observe the registers, ALU, and memory changes during execution.</li>
+</ol>
 
-🔹 Steps to Open in Logisim Evolution
-1️⃣ Download and Install Logisim Evolution → https://logisim-evolution.org
-2️⃣ Open Logisim Evolution.
-3️⃣ Click "File → Open" and select 2107086_Updated_CPU.circ.
-4️⃣ Use "Simulate → Tick Once" to execute step-by-step.
-5️⃣ Observe the registers, ALU, and memory changes during execution.
+<h2>🔍 Debugging & Common Issues</h2>
 
-🔍 Debugging & Common Issues:
+<h3>🔹 Red Wire Errors (Floating Inputs)</h3>
+<ul>
+  <li>Ensure all inputs have defined values (use constants if needed).</li>
+  <li>Check the Control Unit signals for proper instruction execution.</li>
+</ul>
 
-🔹 Red Wire Errors (Floating Inputs)
-Ensure all inputs have defined values (use constants if needed).
-Check the Control Unit signals for proper instruction execution.
-🔹 Clock Not Working
-Ensure the clock is connected to sequential components.
-Use "Tick Frequency → Slow" to debug step-by-step execution.
-🔹 ALU Incorrect Outputs
-Check if the MUX selects the correct ALU operation.
-Verify that input values match expected results.
-🛠 Future Improvements
-🚀 Add pipeline stages for faster execution.
-🚀 Implement interrupt handling for advanced functionality.
-🚀 Improve instruction set support to handle more complex operations.
+<h3>🔹 Clock Not Working</h3>
+<ul>
+  <li>Ensure the clock is connected to sequential components.</li>
+  <li>Use <strong>"Tick Frequency → Slow"</strong> to debug step-by-step execution.</li>
+</ul>
 
-📜 License
+<h3>🔹 ALU Incorrect Outputs</h3>
+<ul>
+  <li>Check if the MUX selects the correct ALU operation.</li>
+  <li>Verify that input values match expected results.</li>
+</ul>
 
-This project is open-source. Feel free to use, modify, and contribute!
+<h2>🛠 Future Improvements</h2>
+<ul>
+  <li>🚀 Add pipeline stages for faster execution.</li>
+  <li>🚀 Implement interrupt handling for advanced functionality.</li>
+  <li>🚀 Improve instruction set support to handle more complex operations.</li>
+</ul>
 
+<h2>📜 License</h2>
+<p>This project is open-source. Feel free to use, modify, and contribute!</p>
 
-💡 Conclusion:
-
-This project demonstrates CPU architecture design in Logisim, focusing on the ALU, registers, memory, and control unit. It provides a foundation for learning computer organization and digital logic.
+<h2>💡 Conclusion</h2>
+<p>This project demonstrates <strong>CPU architecture design</strong> in Logisim, focusing on the <strong>ALU, registers, memory,</strong> and <strong>control unit</strong>. It provides a foundation for learning <strong>computer organization</strong> and <strong>digital logic</strong>.</p>
