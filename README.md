@@ -1,7 +1,7 @@
 <h1>🚀 My_CPU</h1>
 
 <h2>📖 Introduction</h2>
-<p>This project implements a <strong>Custom CPU Architecture</strong> using Logisim Evolution. The design includes an <strong>Arithmetic Logic Unit (ALU), Registers, Control Unit,</strong> and <strong>Memory components</strong> to execute fundamental operations.</p>
+<p>This project implements a <strong>Custom CPU Architecture</strong> using Logisim Evolution. The design includes an <strong>Arithmetic Logic Unit (ALU), Registers, Control Unit</strong>, and <strong>Memory components</strong> to execute fundamental operations.</p>
 
 <h2>✨ Features</h2>
 <ul>
@@ -13,13 +13,16 @@
 </ul>
 
 <h2>📂 File Structure</h2>
-
 <pre>
 /CPU_Design
-│── 2107086_Updated_CPU.circ  # Main CPU circuit
-│── 2107086_cpu.circ          # CPU core logic
-│── 2107086_ALU.circ          # Arithmetic Logic Unit (ALU)
-│── README.md                 # Documentation file
+│── 2107086_ALU.circ         # Arithmetic Logic Unit (ALU)
+│── 2107086_CPU.circ         # CPU core logic
+│── 2107086_alu2.circ        # Alternative ALU design
+│── 2107086_Project_report.pdf # Documentation of the project
+│── Instruction_1.txt        # Instruction file for CPU operations
+│── ScreenShot/              # Folder containing simulation screenshots
+│   └── Screenshot_1.png     # CPU simulation screenshot
+│── .DS_Store                # System file (macOS specific)
 </pre>
 
 <h2>🚀 How to Run the Project</h2>
@@ -28,7 +31,7 @@
 <ol>
   <li>Download and Install Logisim Evolution → <a href="https://logisim-evolution.org" target="_blank">Logisim Evolution</a></li>
   <li>Open Logisim Evolution.</li>
-  <li>Click <strong>"File → Open"</strong> and select <code>2107086_Updated_CPU.circ</code>.</li>
+  <li>Click <strong>"File → Open"</strong> and select <code>2107086_CPU.circ</code>.</li>
   <li>Use <strong>"Simulate → Tick Once"</strong> to execute step-by-step.</li>
   <li>Observe the registers, ALU, and memory changes during execution.</li>
 </ol>
@@ -64,4 +67,4 @@
 <p>This project is open-source. Feel free to use, modify, and contribute!</p>
 
 <h2>💡 Conclusion</h2>
-<p>This project demonstrates <strong>CPU architecture design</strong> in Logisim, focusing on the <strong>ALU, registers, memory,</strong> and <strong>control unit</strong>. It provides a foundation for learning <strong>computer organization</strong> and <strong>digital logic</strong>.</p>
+<p>This project demonstrates <strong>CPU architecture design</strong> in Logisim, focusing on the <strong>ALU, registers, memory</strong>, and <strong>control unit</strong>. It provides a foundation for learning <strong>computer organization</strong> and <strong>digital logic</strong>.</p>
